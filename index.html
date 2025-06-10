@@ -1,14 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Repositories</title>
+    <meta name="description" content="Portfolio de Antonio - Desarrollador Web Frontend">
+    <meta name="keywords" content="desarrollador web, frontend, HTML, CSS, JavaScript, Angular">
+    <meta name="author" content="Antonio">
+    <title>Antonio - Desarrollador Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
+</head>
 <body>
-    <h1>¡Hola Mundo!</h1>
-</body>
+    <div class="container">
+        <!-- Header / Presentación -->
+        <header class="header">
+            <div class="profile-img" aria-label="Foto de perfil">A</div>
+            <h1 class="main-title">ANTONIO</h1>
+            <p class="subtitle">DESARROLLADOR WEB FRONTEND</p>
+            <div class="status">🚀 DISPONIBLE PARA PROYECTOS</div>
+        </header>
 
+        <!-- Sección Sobre mí -->
+        <section class="section">
+            <h2 class="section-title">SOBRE MÍ</h2>
+            <div class="about-content">
+                <p>
+                    ¡Hola! Soy Antonio, un desarrollador web en formación apasionado por crear experiencias digitales atractivas y funcionales. 
+                    Actualmente estoy participando en un bootcamp de desarrollo web de la Consejería de Educación, donde estoy adquiriendo 
+                    las habilidades necesarias para convertirme en un desarrollador full-stack.
+                </p>
+                <p>
+                    Me encanta aprender nuevas tecnologías y enfrentar desafíos creativos. Cada proyecto es una oportunidad para crecer 
+                    y mejorar mis habilidades técnicas.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section class="section">
+            <h2 class="section-title">HABILIDADES TÉCNICAS</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3 class="skill-title">HTML5</h3>
+                    <p class="skill-description">ESTRUCTURA SEMÁNTICA Y ACCESIBLE</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-skill="80"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="skill-title">CSS3</h3>
+                    <p class="skill-description">DISEÑO RESPONSIVO Y ANIMACIONES</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-skill="75"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="skill-title">JAVASCRIPT</h3>
+                    <p class="skill-description">FUNCIONALIDAD E INTERACTIVIDAD</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-skill="40"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="skill-title">GIT & GITHUB</h3>
+                    <p class="skill-description">CONTROL DE VERSIONES</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" data-skill="60"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section class="section">
+            <h2 class="section-title">PROYECTOS</h2>
+            <div class="projects-grid">
+                <article class="project">
+                    <div class="project-header">
+                        <h3 class="project-title">PORTFOLIO PERSONAL</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">Mi primera página web personal donde muestro mis habilidades y proyectos de desarrollo.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="project-header">
+                        <h3 class="project-title">PROYECTO DE PRÁCTICA</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">Ejercicios y proyectos del bootcamp donde practico las tecnologías aprendidas.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="project-header">
+                        <h3 class="project-title">PRÓXIMO PROYECTO</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">Estoy trabajando en nuevos proyectos que incorporarán JavaScript y funcionalidades más avanzadas.</p>
+                        <div class="project-tags">
+                            <span class="tag">En desarrollo</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección Mi Proceso de Aprendizaje -->
+        <section class="section">
+            <h2 class="section-title">MI PROCESO DE APRENDIZAJE</h2>
+            <div class="learning-path">
+                <h3 class="learning-title">ROADMAP DE DESARROLLO</h3>
+                <ul class="learning-list">
+                    <li class="completed">HTML BÁSICO Y SEMÁNTICO</li>
+                    <li class="completed">CSS Y DISEÑO RESPONSIVO</li>
+                    <li class="in-progress">JAVASCRIPT (APRENDIENDO ACTUALMENTE)</li>
+                    <li class="planned">FRAMEWORKS JAVASCRIPT (ANGULAR)</li>
+                    <li class="planned">BACKEND CON NODE.JS</li>
+                    <li class="planned">BASES DE DATOS</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section class="section">
+            <h2 class="section-title">CONTACTO</h2>
+            <div class="contact-content">
+                <p>¿INTERESADO EN COLABORAR? ¡ME ENCANTARÍA CONOCER TU PROYECTO!</p>
+                <div class="contact-links">
+                    <a href="https://github.com/anto-dasein" class="contact-link" target="_blank" rel="noopener noreferrer">
+                        GITHUB
+                    </a>
+                    <a href="mailto:tu-email@ejemplo.com" class="contact-link">
+                        EMAIL
+                    </a>
+                    <a href="https://linkedin.com/in/tu-perfil" class="contact-link" target="_blank" rel="noopener noreferrer">
+                        LINKEDIN
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 ANTONIO. TODOS LOS DERECHOS RESERVADOS.</p>
+        <p>HECHO CON MUCHO CAFÉ</p>
+    </footer>
+</body>
 </html>
